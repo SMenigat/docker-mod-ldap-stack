@@ -27,3 +27,10 @@ services:
       - ldapServer
     ports:
       - "8008:80"
+  web:
+    build: .
+    container_name: web-server-ldap-auth
+    depends_on: 
+      - ldapServer
+    ports:
+      - "8009:80"
