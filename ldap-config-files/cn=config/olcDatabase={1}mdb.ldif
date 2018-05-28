@@ -1,0 +1,30 @@
+# AUTO-GENERATED FILE - DO NOT EDIT!! Use ldapmodify.
+# CRC32 188a7bf7
+dn: olcDatabase={1}mdb
+objectClass: olcDatabaseConfig
+objectClass: olcMdbConfig
+olcDatabase: {1}mdb
+olcDbDirectory: /var/lib/ldap
+olcSuffix: dc=softbricks,dc=de
+olcLastMod: TRUE
+olcRootDN: cn=admin,dc=softbricks,dc=de
+olcRootPW:: e1NTSEF9SG1CUFdlYXZmSWUxbzZHMFBxb0Y1VkF4SVFka2NUbmM=
+olcDbCheckpoint: 512 30
+olcDbMaxSize: 1073741824
+structuralObjectClass: olcMdbConfig
+entryUUID: 8e5c6b56-f6a2-1037-8976-edf891824e32
+creatorsName: cn=admin,cn=config
+createTimestamp: 20180528090922Z
+olcAccess: {0}to attrs=userPassword,shadowLastChange by self write by dn="cn
+ =admin,dc=softbricks,dc=de" write by anonymous auth by * none
+olcAccess: {1}to * by self read by dn="cn=admin,dc=softbricks,dc=de" write b
+ y * none
+olcDbIndex: uid eq
+olcDbIndex: mail eq
+olcDbIndex: memberOf eq
+olcDbIndex: entryCSN eq
+olcDbIndex: entryUUID eq
+olcDbIndex: objectClass eq
+entryCSN: 20180528090924.067729Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20180528090924Z
