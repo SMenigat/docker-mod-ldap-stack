@@ -1,5 +1,5 @@
 # AUTO-GENERATED FILE - DO NOT EDIT!! Use ldapmodify.
-# CRC32 a1532847
+# CRC32 2ad72c65
 dn: cn={8}mmc
 objectClass: olcSchemaConfig
 cn: {8}mmc
@@ -17,9 +17,9 @@ olcObjectClasses: {0}( 1.3.6.1.4.1.40098.1.2.1.19.1 NAME 'lmcUserObject' DES
  C 'Objectclass for LMC user settings ' AUXILIARY MAY ( lmcACL $ lmcPrefMode
   $ lmcPrinterAllowed ) )
 structuralObjectClass: olcSchemaConfig
-entryUUID: 8eeb7b0c-f6a2-1037-82ce-1fd2e6ab5665
+entryUUID: 3925f802-f6be-1037-8508-f1db38809e76
 creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
-createTimestamp: 20180528090923Z
-entryCSN: 20180528090923.701799Z#000000#000#000000
+createTimestamp: 20180528122725Z
+entryCSN: 20180528122725.709477Z#000000#000#000000
 modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
-modifyTimestamp: 20180528090923Z
+modifyTimestamp: 20180528122725Z

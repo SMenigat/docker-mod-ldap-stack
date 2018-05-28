@@ -1,5 +1,5 @@
 # AUTO-GENERATED FILE - DO NOT EDIT!! Use ldapmodify.
-# CRC32 82e77474
+# CRC32 2984892d
 dn: cn=module{0}
 objectClass: olcModuleList
 cn: module{0}
@@ -8,9 +8,9 @@ olcModuleLoad: {0}back_mdb
 olcModuleLoad: {1}memberof
 olcModuleLoad: {2}refint
 structuralObjectClass: olcModuleList
-entryUUID: 8e5a5136-f6a2-1037-8974-edf891824e32
+entryUUID: 3888a7d2-f6be-1037-85f6-6734a8847166
 creatorsName: cn=admin,cn=config
-createTimestamp: 20180528090922Z
-entryCSN: 20180528090924.035109Z#000000#000#000000
+createTimestamp: 20180528122724Z
+entryCSN: 20180528122726.385578Z#000000#000#000000
 modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
-modifyTimestamp: 20180528090924Z
+modifyTimestamp: 20180528122726Z

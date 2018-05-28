@@ -1,5 +1,5 @@
 # AUTO-GENERATED FILE - DO NOT EDIT!! Use ldapmodify.
-# CRC32 d485e272
+# CRC32 844bf1e8
 dn: cn={2}nis
 objectClass: olcSchemaConfig
 cn: {2}nis
@@ -100,9 +100,9 @@ olcObjectClasses: {12}( 1.3.6.1.1.1.2.12 NAME 'bootableDevice' DESC 'A devic
  e with boot parameters' SUP top AUXILIARY MAY ( bootFile $ bootParameter ) 
  )
 structuralObjectClass: olcSchemaConfig
-entryUUID: 8e595e20-f6a2-1037-8972-edf891824e32
+entryUUID: 3887c16e-f6be-1037-85f4-6734a8847166
 creatorsName: cn=admin,cn=config
-createTimestamp: 20180528090922Z
-entryCSN: 20180528090922.744231Z#000000#000#000000
+createTimestamp: 20180528122724Z
+entryCSN: 20180528122724.672609Z#000000#000#000000
 modifiersName: cn=admin,cn=config
-modifyTimestamp: 20180528090922Z
+modifyTimestamp: 20180528122724Z

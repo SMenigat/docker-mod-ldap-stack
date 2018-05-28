@@ -1,5 +1,5 @@
 # AUTO-GENERATED FILE - DO NOT EDIT!! Use ldapmodify.
-# CRC32 199ed9da
+# CRC32 44fc014c
 dn: cn={7}mail
 objectClass: olcSchemaConfig
 cn: {7}mail
@@ -50,9 +50,9 @@ olcObjectClasses: {3}( 1.3.6.1.4.1.21103.1.2.13.4 NAME 'mailAlias' DESC 'Mai
  l Alias' SUP top STRUCTURAL MUST mailalias MAY ( mail $ mailaliasmember $ m
  ailenable ) )
 structuralObjectClass: olcSchemaConfig
-entryUUID: 8ee66964-f6a2-1037-82cd-1fd2e6ab5665
+entryUUID: 391e5b38-f6be-1037-8507-f1db38809e76
 creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
-createTimestamp: 20180528090923Z
-entryCSN: 20180528090923.668579Z#000000#000#000000
+createTimestamp: 20180528122725Z
+entryCSN: 20180528122725.659588Z#000000#000#000000
 modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
-modifyTimestamp: 20180528090923Z
+modifyTimestamp: 20180528122725Z

@@ -1,5 +1,5 @@
 # AUTO-GENERATED FILE - DO NOT EDIT!! Use ldapmodify.
-# CRC32 bac25608
+# CRC32 dd420065
 dn: cn={5}dhcp
 objectClass: olcSchemaConfig
 cn: {5}dhcp
@@ -330,9 +330,9 @@ olcObjectClasses: {15}( 2.16.840.1.113719.1.203.6.16 NAME 'dhcpLocator' DESC
  Comments ) X-NDS_CONTAINMENT ( 'organization' 'organizationalunit' 'domain'
   ) )
 structuralObjectClass: olcSchemaConfig
-entryUUID: 8edab664-f6a2-1037-82cb-1fd2e6ab5665
+entryUUID: 390e21c8-f6be-1037-8505-f1db38809e76
 creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
-createTimestamp: 20180528090923Z
-entryCSN: 20180528090923.591902Z#000000#000#000000
+createTimestamp: 20180528122725Z
+entryCSN: 20180528122725.553257Z#000000#000#000000
 modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
-modifyTimestamp: 20180528090923Z
+modifyTimestamp: 20180528122725Z

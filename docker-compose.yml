@@ -14,8 +14,10 @@ services:
       - ./ldap-config-files:/etc/ldap/slapd.d
     ports:
       - "306:306"
-  ldapFrontend:
-    image: osixia/phpldapadmin:0.7.1
+  ldapfrontend:
+    build: 
+      context: ./php-ldap-admin/
+      dockerfile: Dockerfile
     container_name: php-ldap-admin
     restart: always
     depends_on: 

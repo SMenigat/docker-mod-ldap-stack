@@ -1,5 +1,5 @@
 # AUTO-GENERATED FILE - DO NOT EDIT!! Use ldapmodify.
-# CRC32 e711ce4a
+# CRC32 2c896af1
 dn: cn={6}dnszone
 objectClass: olcSchemaConfig
 cn: {6}dnszone
@@ -85,9 +85,9 @@ olcObjectClasses: {0}( 1.3.6.1.4.1.2428.20.3 NAME 'dNSZone' SUP top STRUCTUR
   CERTRecord $ A6Record $ DNAMERecord $ DSRecord $ SSHFPRecord $ RRSIGRecord
   $ NSECRecord ) )
 structuralObjectClass: olcSchemaConfig
-entryUUID: 8ee10faa-f6a2-1037-82cc-1fd2e6ab5665
+entryUUID: 3914faf2-f6be-1037-8506-f1db38809e76
 creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
-createTimestamp: 20180528090923Z
-entryCSN: 20180528090923.633513Z#000000#000#000000
+createTimestamp: 20180528122725Z
+entryCSN: 20180528122725.598142Z#000000#000#000000
 modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
-modifyTimestamp: 20180528090923Z
+modifyTimestamp: 20180528122725Z
