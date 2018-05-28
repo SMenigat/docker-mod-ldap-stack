@@ -1,0 +1,29 @@
+version: '3'
+services:
+  ldapServer:
+    image: osixia/openldap:1.2.1
+    container_name: open-ldap-server
+    restart: always
+    environment:
+      LDAP_ORGANISATION: SoftBricks
+      LDAP_DOMAIN: softbricks.de
+      LDAP_ADMIN_PASSWORD: sbtest
+      LDAP_TLS: 'false'
+    volumes:
+      - ./ldap-database:/var/lib/ldap
+      - ./ldap-config-files:/etc/ldap/slapd.d
+    ports:
+      - "306:306"
+  ldapFrontend:
+    image: osixia/phpldapadmin:0.7.1
+    container_name: php-ldap-admin
+    restart: always
+    depends_on: 
+      - ldapServer
+    environment:
+      PHPLDAPADMIN_LDAP_HOSTS: ldapServer
+      PHPLDAPADMIN_HTTPS: 'false'
+    links:
+      - ldapServer
+    ports:
+      - "8008:80"
