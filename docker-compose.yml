@@ -14,6 +14,7 @@ services:
       - ./ldap-config-files:/etc/ldap/slapd.d
     ports:
       - "306:306"
+      - "389:389"
   ldapfrontend:
     build: 
       context: ./php-ldap-admin/
