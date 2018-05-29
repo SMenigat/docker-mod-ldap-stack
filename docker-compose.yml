@@ -37,3 +37,17 @@ services:
       - ldapServer
     ports:
       - "8009:80"
+  php:
+    image: webdevops/php-apache:centos-7
+    container_name: php-server
+    restart: always
+    depends_on: 
+      - ldapServer
+    links:
+      - ldapServer
+    environment:
+      WEB_DOCUMENT_ROOT: /var/www/html/
+    volumes:
+      - ./php-auth-test:/var/www/html
+    ports:
+      - "8010:80"
